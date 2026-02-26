@@ -6,6 +6,8 @@ public class Unit1 {
 	public static void main(String[] args) {
 		// Test your methods here by calling them and printing the results
 		System.out.println("Test methods here...");
+        double x = multiplyIntAndDouble(3, 4);
+        System.out.println(x);
 	}
  /**
   * Method 1: Returns the sum of two integers.
@@ -16,8 +18,7 @@ public class Unit1 {
   * @return the sum of a and b
   */
  public static int addIntegers(int a, int b) {
-     // Your code here
-     return 0; // Placeholder return
+     return a+b; 
  }
 
  /**
@@ -28,8 +29,7 @@ public class Unit1 {
   * @return the value cast to an int
   */
  public static int castDoubleToInt(double value) {
-     // Your code here
-     return 0; // Placeholder return
+     return (int) value;
  }
 
  /**
@@ -40,8 +40,7 @@ public class Unit1 {
   * @return true if value is true, false otherwise
   */
  public static boolean isTrue(boolean value) {
-     // Your code here
-     return false; // Placeholder return
+     return value;
  }
 
  /**
@@ -51,8 +50,7 @@ public class Unit1 {
   * @return Integer.MAX_VALUE minus one
   */
  public static int maxValueMinusOne() {
-     // Your code here
-     return 0; // Placeholder return
+     return Integer.MAX_VALUE - 1;
  }
 
  /**
@@ -64,7 +62,6 @@ public class Unit1 {
   * @return the product of a and b as a double
   */
  public static double multiplyIntAndDouble(int a, double b) {
-     // Your code here
-     return 0.0; // Placeholder return
+     return a*b;
  }
 }
